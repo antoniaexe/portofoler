@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.15;
 }
 
 a {
@@ -24,3 +25,16 @@ a {
     background: black;
   }
 }
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.container{
+  display: block;
+  width: 345px;
+  position: relative;
+    margin: 190px 0px 61px calc((100% - 980px) * 0.5);
+    left: 330px;
+    grid-area: 1 / 1 / 2 / 2;}
