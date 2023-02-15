@@ -18,8 +18,6 @@ export default function handler(
     newProject.id= uid;
     ProjectDatabase.set(uid, newProject );
     res.status(200).json(Object.values(ProjectDatabase.JSON()));
-
-    // dbstudios.push(newStudio);
   }
  
 }
