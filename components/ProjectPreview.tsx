@@ -18,11 +18,13 @@ export const ProjectPreview = ({ name }) => {
     }, []);
     return (
         <div>
+            <a href={`/projects/${name}`}>
             <h1>
                 {name}
             </h1>
             <img src={`${image}`}></img>
-        </div>
+            </a>
+            </div>
 
 
     );
